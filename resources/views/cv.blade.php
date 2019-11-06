@@ -6,10 +6,10 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        {{ HTML::style('css/style.css'); }}
-        {{ HTML::style('css/slick.css'); }}
-        {{ HTML::style('css/slick-theme.css'); }}
-        
+        <link rel="stylesheet" type="text/css" href="{{ url('/css/style.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ url('/css/slick.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ url('/css/slick-theme.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ url('/css/font-awesome.min.css') }}" />
 
     </head>
     <body>
