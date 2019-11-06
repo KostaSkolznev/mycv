@@ -1,0 +1,259 @@
+body {
+  background-image: linear-gradient(70deg, #bfb9b3, #f0dec4);
+  color: #ca5619;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+p {
+	margin: 5px;
+}
+h1, h2 {
+  margin-top: 0;
+  background-color: #b5a694;
+  padding: 0.1em 0.1em 0.1em 1em;
+	border: 1px solid rgb(181, 166, 148);
+	border-radius: 5px;
+}
+a {
+	color: #ca5619;
+	text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-auto-rows: minmax(50px, auto);
+  max-width: 1280px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  perspective: none;
+  perspective-origin: 100% 0%;
+}
+.photo {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  position:relative;
+}
+.photo-wrapfront {
+  z-index: 101;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all ease 1s;
+  border-radius: 0px 5px 5px 0px;
+}
+.move-wrapfront{
+  transform: translate(200%, 0);
+  transition: 1s;
+}
+.photo-wrapback {
+  z-index: 100;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all ease 1s;
+}
+.move-wrapback{
+  transform: translate(100%, 0%) rotateY(180deg);
+  transition: 1s;
+}
+.photo img {
+  width:100%;
+	border: #b5a694 solid 5px;
+}
+.photo-wrapfront img {
+  width: 100%;
+  border: #ffc107 solid 2px;
+}
+.photo-wrapback img {
+  width: 100%;
+  border: #ffc107 solid 2px;
+}
+.wrap-background {
+	border-radius: 5px 0px 0px 5px;
+}
+.name {
+  grid-column:2/5;
+  grid-row:1/1;
+}
+.description {
+  grid-column:2/3;
+  grid-row:2/2;
+}
+.skills {
+  grid-column: 3/4;
+  grid-row: 2/2;
+}
+.contact {
+  grid-column: 4/5;
+  grid-row: 2/2;
+}
+.contact img {
+  width: 1em;
+  margin-right:0.5em;
+}
+.portfolio {
+  grid-column: 1/5;
+  grid-row:3/5;
+  width: 100%;
+}
+.portfolio img:hover {
+  transform: rotate(2deg);
+}
+.card {
+  display:grid;
+  justify-content: center;
+}
+.card img, .card h3, .card p {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+.experience {
+  grid-column: 1/1;
+  grid-row: 6/6
+}
+.education {
+  grid-column: 1/1;
+  grid-row: 7/7;
+}
+.experience-description {
+  grid-column: 2/5;
+  grid-row: 6/6;
+}
+.education-description {
+  grid-column: 2/5;
+  grid-row: 7/7;
+}
+.skill-name {
+  width: 6em;
+  float: left;
+}
+.footer {
+  grid-column: 1/5;
+  grid-row: 8/8;
+  background-color: #b5a694;
+  border-radius: 5px;
+  border: 1px solid rgba(250, 250, 250, 0.36);
+  text-align: center;
+}
+.footer li {
+  display: inline;
+  list-style-type: none;
+}
+.footer img {
+	width: 1em;
+	padding-right: 0.3em;
+	padding-left: 1em;
+}
+
+@media (max-width: 880px) {
+  .name {
+    grid-column:1/5;
+    grid-row:1/1;
+  }
+  .photo {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    position:relative;
+  }
+  .description {
+    grid-column:2/5;
+    grid-row:2/3;
+  }
+  .skills {
+    grid-column: 1/3;
+    grid-row: 3/3;
+  }
+  .contact {
+    grid-column: 3/5;
+    grid-row: 3/3;
+  }
+  .portfolio {
+    grid-column: 1/5;
+    grid-row:5/5;
+  }
+  .experience {
+    grid-column: 1/1;
+    grid-row: 6/6
+  }
+  .education {
+    grid-column: 1/1;
+    grid-row: 8/8;
+  }
+  .experience-description {
+    grid-column: 2/5;
+    grid-row: 7/7;
+  }
+  .education-description {
+    grid-column: 2/5;
+    grid-row: 9/9;
+  }
+  .footer {
+    grid-column: 1/5;
+    grid-row: 10/10;
+  }
+}
+@media (max-width: 499px) {
+  .name {
+    grid-column:1/5;
+    grid-row:1/1;
+  }
+  .photo {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    position:relative;
+  }
+  .description {
+    grid-column:2/5;
+    grid-row:2/3;
+  }
+  .skills {
+    grid-column: 1/5;
+    grid-row: 3/3;
+  }
+  .contact {
+    grid-column: 1/5;
+    grid-row: 4/4;
+  }
+  .portfolio {
+    grid-column: 1/5;
+    grid-row:5/5;
+  }
+  .experience {
+    grid-column: 1/1;
+    grid-row: 6/6
+  }
+  .education {
+    grid-column: 1/1;
+    grid-row: 8/8;
+  }
+  .experience-description {
+    grid-column: 1/5;
+    grid-row: 7/7;
+  }
+  .education-description {
+    grid-column: 1/5;
+    grid-row: 9/9;
+  }
+  .footer {
+    grid-column: 1/5;
+    grid-row: 10/10;
+  }
+  .allskills {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+}
+  .allcontacts {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 2fr;
+  }
+}
