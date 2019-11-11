@@ -15,7 +15,7 @@
           <div class="card">
             <img src="images/screenshot_iot.png" alt="my cv">
             <h3>интернет-магазин ИОТ</h3>
-            <p>wordpress, html, css, bootsrap4, javascript, php</p>
+            <p>wordpress, woocommerce, html, css, bootsrap4, javascript, react, php</p>
           </div>
           <div class="card">
             <img src="images/flowers.png" alt="flowers">
@@ -55,7 +55,7 @@
       </div>
       <div class="education-description">
         <h4>hexlet</h4>
-        <p>В данный момент прохожу курсы профессии PHP-программист, также изучаю фреймворк laravel</p>
+        <p>В данный момент прохожу курсы профессии PHP-программист, также изучаю фреймворк laravel и react.js</p>
         <h4>ЕЭТК</h4>
         <p>автоматизированные системы хранения и управления информацией</p>
         <p>техник-информатик</p>
