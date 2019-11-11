@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('cv');
 });
+
+Route::get('experience', function () {
+    return view('experience');
+});

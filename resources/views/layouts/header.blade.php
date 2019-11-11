@@ -20,7 +20,7 @@
             <img class="photo-wrapback" src="images/photo2.jpg" alt="Konstantin Skolznev">
           </div>
           <div class="name">
-            <h1>Скользнев Константин</h1>
+            <a href="/"><h1>Скользнев Константин</h1></a>
           </div>
           <div class="description">
             <h4>Обо мне</h4>

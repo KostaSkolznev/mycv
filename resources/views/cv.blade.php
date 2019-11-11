@@ -31,7 +31,7 @@
       </div>
 
       <div class="experience">
-        <h2>Опыт</h2>
+        <a href="experience"><h2>Опыт</h2></a>
       </div>
       <div class="experience-description">
         <p>Релевантный опыт в сфере веб - создание сайтов на основе wordpress и opencart, также в данный момент изучаю laravel и react</p>
