@@ -1,6 +1,6 @@
 body {
   background-image: linear-gradient(70deg, #100d2c, #14123c);
-  color: #fff;
+  color: #020202;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
 p {
@@ -8,13 +8,13 @@ p {
 }
 h1, h2 {
   margin-top: 0;
-  background-color: #100d2c;
+  background-color: #73675b;
   padding: 0.1em 0.1em 0.1em 1em;
-	border: 2px solid #23c2e0;
+	border: 2px solid #ff6f19;
 	border-radius: 5px;
 }
 a {
-	color: #fff;
+	color: #020202;
 	text-decoration: none;
 }
 li {
@@ -66,16 +66,16 @@ li {
 }
 .photo img {
   width:100%;
-	border: 5px solid #23c2e0;
+	border: 5px solid #ff6f19;
   border-radius: 5px;
 }
 .photo-wrapfront img {
   width: 100%;
-  border: 2px solid #23c2e0;
+  border: 2px solid #ff6f19;
 }
 .photo-wrapback img {
   width: 100%;
-  border: 2px solid #23c2e0;
+  border: 2px solid #ff6f19;
 }
 .wrap-background {
 	border-radius: 5px 0px 0px 5px;
@@ -107,7 +107,7 @@ li {
 }
 .portfolio img {
   border-radius: 5px;
-  border: 2px solid #23c2e0;
+  border: 2px solid #ff6f19;
 }
 .portfolio img:hover {
   transform: rotate(2deg);
@@ -144,9 +144,9 @@ li {
 .footer {
   grid-column: 1/5;
   grid-row: 8/8;
-  background-color: #100d2c;
+  background-color: #73675b;
   border-radius: 5px;
-  border: 2px solid #23c2e0;
+  border: 2px solid #ff6f19;
   text-align: center;
 }
 .footer li {
