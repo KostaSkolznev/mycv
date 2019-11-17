@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(70deg, #fff, #fff9f6);
+  background-image: linear-gradient(70deg, #ffeace, #fdfaf7);
   color: #020202;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
@@ -8,9 +8,9 @@ p {
 }
 h1, h2 {
   margin-top: 0;
-  background-color: #73675b;
+  background-color: rgb(255, 234, 206);
   padding: 0.1em 0.1em 0.1em 1em;
-	border: 2px solid #ff6f19;
+	border: 1px solid #ff6f19;
 	border-radius: 5px;
   color: #ff6f19;
 }
@@ -72,11 +72,11 @@ li {
 }
 .photo-wrapfront img {
   width: 100%;
-  border: 2px solid #ff6f19;
+  border: 1px solid #ff6f19;
 }
 .photo-wrapback img {
   width: 100%;
-  border: 2px solid #ff6f19;
+  border: 1px solid #ff6f19;
 }
 .wrap-background {
 	border-radius: 5px 0px 0px 5px;
@@ -108,7 +108,7 @@ li {
 }
 .portfolio img {
   border-radius: 5px;
-  border: 2px solid #ff6f19;
+  border: 1px solid #ff6f19;
 }
 .portfolio img:hover {
   transform: rotate(2deg);
@@ -145,9 +145,9 @@ li {
 .footer {
   grid-column: 1/5;
   grid-row: 8/8;
-  background-color: #73675b;
+  background-color: rgb(255, 234, 206);
   border-radius: 5px;
-  border: 2px solid #ff6f19;
+  border: 1px solid #ff6f19;
   text-align: center;
 }
 .footer li {
